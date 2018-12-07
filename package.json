@@ -1,0 +1,23 @@
+{
+  "name": "grid-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, !node_modules/**/*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clamarque/grid-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clamarque/grid-example/issues"
+  },
+  "homepage": "https://github.com/clamarque/grid-example#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}

@@ -54,31 +54,4 @@ aside .breaking-article {
     text-align: justify;
 }
 
-/* CORRECTION */
-.article {
-    grid-template-columns: auto, 1fr, 1fr;
-    grid-template-rows: auto 2fr 100px;
-    grid-gap: 10px;
-}
-
-.title {
-    grid-column: span 3;
-}
-.picture {
-    grid-column: 1;
-    grid-row: 2 / span 3;
-    /* grid-area: 2 / 1 / span 3 / 1; */
-    justify-self: center;
-    align-self: center;
-}
-
-.content {
-    grid-column: 2 / 2;
-    align-self: center;
-}
-.subcontent {
-    grid-column: 2 / span 3;
-    grid-row: 3;
-    /* grid-area: 3 / 2 / 3 / span 3; */
-    align-self: flex-end;
-}
+/* WRITE YOUR CODE HERE */
